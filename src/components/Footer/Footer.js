@@ -1,8 +1,8 @@
 import React from "react";
-import pdf from "../../resume/Thomas Fitzpatrick Resume.pdf";
-import github from "../../../public/assets/github.png";
-import linkedin from "../../../public/assets/linkedin-logo.png";
-import resume from "../../../public/assets/resume-and-cv.png";
+import pdf from "../../assets/resume/Thomas Fitzpatrick Resume.pdf";
+import github from "../../assets/github.png";
+import linkedin from "../../assets/linkedin-logo.png";
+import resume from "../..//assets/resume-and-cv.png";
 import "./style.css";
 
 export default function Footer() {

@@ -1,12 +1,10 @@
-import logo from "./logo.svg";
 import React, { useEffect, useRef, useState } from "react";
 import { WOW } from "wowjs";
 import WAVES from "vanta/dist/vanta.waves.min";
-import "./App.css";
+import Footer from "../src/components/Footer/Footer";
 import "animate.css";
-import pdf from "./resume/Thomas Fitzpatrick Resume.pdf";
+import "./App.css";
 function App() {
-  const [inView, setInView] = useState(1);
   const [vantaEffect, setVantaEffect] = useState(0);
   const myRef = useRef(null);
   useEffect(() => {
@@ -52,64 +50,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="bottombar">
-          <h4 className="icons">
-            <a
-              className="animate__pulse"
-              href="https://www.linkedin.com/in/tj-fitzpatrick/"
-              title="Freepik"
-              target="_blank"
-            >
-              <img src="../assets/linkedin-logo.png"></img>
-            </a>{" "}
-            <a
-              className="animate__pulse"
-              href="https://github.com/TJFitz"
-              title="Freepik"
-              target="_blank"
-            >
-              <img src="../assets/github.png"></img>
-            </a>{" "}
-            <a
-              className="animate__pulse"
-              href={pdf}
-              title="Freepik"
-              target="_blank"
-            >
-              <img src="../assets/resume-and-cv.png"></img>
-            </a>{" "}
-          </h4>
-          <div className="attributions">
-            Icons made by{" "}
-            <a
-              href="https://www.flaticon.com/authors/vitaly-gorbachev"
-              title="Freepik"
-              target="_blank"
-            >
-              Vitaly Gorbachev,
-            </a>{" "}
-            <a
-              href="https://www.flaticon.com/authors/vitaly-gorbachev"
-              title="Freepik"
-              target="_blank"
-            >
-              Google,
-            </a>{" "}
-            and
-            <a
-              className="toTheLeft"
-              href="https://www.flaticon.com/authors/google"
-              title="Freepik"
-              target="_blank"
-            >
-              Freepik
-            </a>{" "}
-            from{" "}
-            <a href="https://www.flaticon.com/" title="Flaticon">
-              www.flaticon.com
-            </a>
-          </div>
-        </div>
+        <Footer></Footer>
         <div className="">
           <div className="row evenodd">
             <div className="test col"> content </div>

@@ -44,7 +44,7 @@ function App() {
         <div className=" row title ">
           <div className="topbar"></div>
           <div className=" titleName col">
-            <div className="testing animate__fadeInUp vertical">
+            <div className="nametitle animate__fadeInUp vertical">
               <h3 className="">TJ Fitzpatrick</h3>
               <h5>Full Stack Web Developer</h5>
             </div>
@@ -52,29 +52,39 @@ function App() {
         </div>
         <Footer></Footer>
         <div className="">
-          <div className="row evenodd">
-            <div className="test col"> content </div>
+          <div className="row mainContent evenodd">
+            <div className="wow fadeInUp aboutMeTitle col-xl-12">
+              {" "}
+              <h3 className="">About Me</h3>{" "}
+            </div>
+            <div className="col">
+              <div className="row test">
+                <div className="col">
+                  <div className="wow fadeInUp aboutMe">content</div>
+                </div>
+              </div>
+            </div>
           </div>{" "}
-          <div className=" row evenodd ">
-            <div className="test col"> content to animate</div>
+          <div className="row mainContent evenodd">
+            <div className="col"> content to animate</div>
+          </div>
+          <div className="row mainContent evenodd">
+            <div className="col"> content </div>
+          </div>
+          <div className="row mainContent evenodd">
+            <div className="col"> content </div>
+          </div>
+          <div className="row mainContent evenodd">
+            <div className="col"> content </div>
+          </div>
+          <div className="row mainContent evenodd">
+            <div className="col"> content </div>
+          </div>
+          <div className="row mainContent evenodd">
+            <div className="col"> content </div>
           </div>{" "}
-          <div className="row evenodd">
-            <div className="test col"> content </div>
-          </div>{" "}
-          <div className="row evenodd">
-            <div className="test col"> content </div>
-          </div>{" "}
-          <div className="row evenodd">
-            <div className="test col"> content </div>
-          </div>{" "}
-          <div className="row evenodd">
-            <div className="test col"> content </div>
-          </div>{" "}
-          <div className="row evenodd">
-            <div className="test col"> content </div>
-          </div>{" "}
-          <div className="row evenodd">
-            <div className="test col"> content </div>
+          <div className="row mainContent evenodd">
+            <div className="col"> content </div>
           </div>
         </div>
       </div>

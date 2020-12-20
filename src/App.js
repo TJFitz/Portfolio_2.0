@@ -17,7 +17,7 @@ function App() {
           gyroControls: false,
           minHeight: 200.0,
           minWidth: 200.0,
-          scale: 3.0,
+          scale: 2.0,
           scaleMobile: 2.0,
           color: 0x5c5677,
           zoom: 2,
@@ -77,12 +77,6 @@ function App() {
           <div className="row mainContent evenodd">
             <div className="col"> content </div>
           </div>
-          <div className="row mainContent evenodd">
-            <div className="col"> content </div>
-          </div>
-          <div className="row mainContent evenodd">
-            <div className="col"> content </div>
-          </div>{" "}
           <div className="row mainContent evenodd">
             <div className="col"> content </div>
           </div>

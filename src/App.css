@@ -133,13 +133,13 @@ h5 {
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(5.5px);
   animation: fadeInUp;
-  animation-duration: 1500ms;
+  animation-duration: 1200ms;
 }
 
 .aboutMeTitle {
-  margin-top: 5vh;
+  margin-top: 3vh;
   animation: fadeInUp;
-  animation-duration: 1200ms;
+  animation-duration: 1400ms;
 }
 
 @keyframes titleIntro {

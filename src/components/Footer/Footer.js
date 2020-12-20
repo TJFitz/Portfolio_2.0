@@ -13,7 +13,10 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src="../assets/linkedin-logo.png" alt="LinkedIn Icon"></img>
+          <img
+            src="../../../public/assets/linkedin-logo.png"
+            alt="LinkedIn Icon"
+          ></img>
         </a>{" "}
         <a
           className="animate__pulse"
@@ -22,7 +25,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src="../assets/github.png" alt="Github Icon"></img>
+          <img src="../../../public/assets/github.png" alt="Github Icon"></img>
         </a>{" "}
         <a
           className="animate__pulse"
@@ -31,7 +34,10 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src="../assets/resume-and-cv.png" alt="Resume Icon"></img>
+          <img
+            src="../../../public/assets/resume-and-cv.png"
+            alt="Resume Icon"
+          ></img>
         </a>{" "}
       </h4>
       <div className="attributions">

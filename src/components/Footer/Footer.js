@@ -1,5 +1,5 @@
 import React from "react";
-import pdf from "../../assets/resume/Thomas Fitzpatrick Resume.pdf";
+import pdf from "../../assets/Thomas Fitzpatrick Resume.pdf";
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin-logo.png";
 import resume from "../../assets/resume-and-cv.png";

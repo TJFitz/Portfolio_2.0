@@ -1,5 +1,8 @@
 import React from "react";
 import pdf from "../../resume/Thomas Fitzpatrick Resume.pdf";
+import github from "../../../public/assets/github.png";
+import linkedin from "../../../public/assets/linkedin-logo.png";
+import resume from "../../../public/assets/resume-and-cv.png";
 import "./style.css";
 
 export default function Footer() {
@@ -13,10 +16,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            src="../../../public/assets/linkedin-logo.png"
-            alt="LinkedIn Icon"
-          ></img>
+          <img src={linkedin} alt="LinkedIn Icon"></img>
         </a>{" "}
         <a
           className="animate__pulse"
@@ -25,7 +25,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src="../../../public/assets/github.png" alt="Github Icon"></img>
+          <img src={github} alt="Github Icon"></img>
         </a>{" "}
         <a
           className="animate__pulse"
@@ -34,10 +34,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            src="../../../public/assets/resume-and-cv.png"
-            alt="Resume Icon"
-          ></img>
+          <img src={resume} alt="Resume Icon"></img>
         </a>{" "}
       </h4>
       <div className="attributions">

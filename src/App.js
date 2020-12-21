@@ -34,7 +34,7 @@ function App() {
 
   useEffect(() => {
     // window.scrollTo(0, 0);
-    const wow = new WOW({ live: true });
+    const wow = new WOW({ live: false });
     wow.init();
   }, []);
 

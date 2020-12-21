@@ -1,5 +1,5 @@
 import React from "react";
-import pdf from "../../../public/assets/Thomas Fitzpatrick Resume.pdf";
+import pdf from "../../assets/Thomas_Fitzpatrick_Resume.pdf";
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin-logo.png";
 import resume from "../../assets/resume-and-cv.png";
@@ -10,7 +10,7 @@ export default function Footer() {
     <div className="bottombar">
       <h4 className="icons">
         <a
-          className="animate__pulse"
+          className=""
           href="https://www.linkedin.com/in/tj-fitzpatrick/"
           title="Freepik"
           target="_blank"
@@ -19,7 +19,7 @@ export default function Footer() {
           <img src={linkedin} alt="LinkedIn Icon"></img>
         </a>{" "}
         <a
-          className="animate__pulse"
+          className=""
           href="https://github.com/TJFitz"
           title="Freepik"
           target="_blank"
@@ -28,7 +28,7 @@ export default function Footer() {
           <img src={github} alt="Github Icon"></img>
         </a>{" "}
         <a
-          className="animate__pulse"
+          className=""
           href={pdf}
           title="Freepik"
           target="_blank"

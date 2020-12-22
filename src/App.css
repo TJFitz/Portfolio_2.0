@@ -85,7 +85,7 @@ h5 {
 }
 
 .titleName {
-  top: 20%;
+  top: 25vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -115,7 +115,7 @@ h5 {
 .mainContent {
   display: flex;
   text-align: center;
-  height: 93vh;
+  height: 100vh;
   margin-bottom: 2vh;
 }
 
@@ -125,12 +125,11 @@ h5 {
 
 .aboutMe {
   height: 70vh;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgba(223, 194, 247, 0.342);
+  width: 100%;
+  margin-bottom: auto;
+  background-color: rgba(194, 215, 247, 0.342);
   box-shadow: 0px 15px 50px -10px rgb(0, 0, 0),
-    inset 0px 0px 150px -30px rgba(241, 210, 255, 0.521);
+    inset 0px 0px 150px -30px rgba(175, 224, 233, 0.521);
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(5.5px);
   animation: fadeInUp;

@@ -4,6 +4,7 @@ import WAVES from "vanta/dist/vanta.waves.min";
 import Footer from "../src/components/Footer/Footer";
 import "animate.css";
 import "./App.css";
+
 function App() {
   const [vantaEffect, setVantaEffect] = useState(0);
   const myRef = useRef(null);
@@ -57,11 +58,9 @@ function App() {
               {" "}
               <h3 className="">About Me</h3>{" "}
             </div>
-            <div className="col">
-              <div className="row test">
-                <div className="col">
-                  <div className="wow fadeInUp aboutMe">content</div>
-                </div>
+            <div className="row test wow fadeInUp aboutMe">
+              <div className="col">
+                <div className="">content</div>
               </div>
             </div>
           </div>{" "}

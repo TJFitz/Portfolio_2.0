@@ -21,7 +21,7 @@ function App() {
           scale: 1.0,
           scaleMobile: 1.0,
           color: 0x5c5677,
-          zoom: 2,
+          zoom: 1,
           shininess: 100.0,
           waveHeight: 4.0,
           waveSpeed: 0.75,

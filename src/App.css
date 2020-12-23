@@ -138,9 +138,8 @@ h4 {
 }
 
 .aboutMe {
-  height: 70vh;
+  height: 80vh;
   width: 100%;
-  margin-bottom: 5vh;
   background-color: rgba(194, 215, 247, 0.342);
   box-shadow: 0px 15px 50px -10px rgb(0, 0, 0),
     inset 0px 0px 150px -30px rgba(175, 224, 233, 0.521);

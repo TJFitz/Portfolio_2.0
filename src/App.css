@@ -11,13 +11,7 @@
 }
 
 .vertical {
-  border: groove 10px rgb(152, 118, 170);
-  border-image-source: radial-gradient(
-    circle,
-    rgb(0, 0, 0),
-    rgba(46, 27, 61, 0.534)
-  );
-  border-image-slice: 1;
+  border: groove 8px rgba(97, 69, 116, 0.342);
   border-left: none;
   border-right: none;
   border-top: none;
@@ -32,6 +26,7 @@
   box-shadow: 0px 10px 100px -10px rgb(26, 26, 26);
   text-align: center;
   justify-content: center;
+  border-radius: 3px;
 }
 
 h3 {
@@ -63,20 +58,21 @@ h3 {
 h5 {
   font-size: 2vw;
 
-  font-weight: 700;
+  font-weight: 500;
   font-style: italic;
-  color: rgb(0, 0, 0);
-  text-shadow: 0px 0px 7px rgba(255, 255, 255, 0.753);
-  background-color: rgba(196, 178, 201, 0.534);
+  color: rgb(255, 234, 250);
+  text-shadow: 0px 0px 7px rgba(15, 15, 15, 0.753);
+  background-color: rgba(31, 31, 31, 0.486);
   width: fit-content;
   padding-left: 1vw;
   padding-right: 1vw;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 3px;
 }
 
 h4 {
-  font-size: 7vw;
+  font-size: 8vw;
   margin-top: auto;
   margin-bottom: auto;
   width: 100%;
@@ -129,7 +125,8 @@ h4 {
 .mainContent {
   display: flex;
   text-align: center;
-  height: 100vh;
+  height: fit-content;
+  min-height: 100vh;
   margin-bottom: 2vh;
 }
 
@@ -138,7 +135,8 @@ h4 {
 }
 
 .aboutMe {
-  height: 80vh;
+  margin-bottom: 5vh;
+  /* height: 70vh; */
   width: 100%;
   background-color: rgba(194, 215, 247, 0.342);
   box-shadow: 0px 15px 50px -10px rgb(0, 0, 0),
@@ -150,6 +148,67 @@ h4 {
   animation-delay: 1000ms;
   animation-fill-mode: forwards;
   opacity: 0;
+}
+
+.test {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70vw;
+  border-radius: 3px;
+  margin-bottom: 3vh;
+  color: rgb(255, 234, 250);
+  background-color: rgba(31, 31, 31, 0.925);
+  box-shadow: 0px 0px 15px -5px rgb(0, 0, 0);
+}
+
+.aboutmetext {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70vw;
+  border-radius: 3px;
+  color: rgb(255, 234, 250);
+  background-color: rgba(31, 31, 31, 0.925);
+  box-shadow: 0px 0px 15px -5px rgb(0, 0, 0);
+}
+
+.blurb {
+  color: rgb(255, 234, 250);
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.center {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.headshot {
+  height: 50vh;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.myface {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  height: 40vh;
+  margin-top: 5vh;
+  box-shadow: 0px 0px 15px -5px rgb(0, 0, 0);
+}
+
+.quote {
+  color: rgb(239, 199, 255);
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background-color: rgba(31, 31, 31, 0.808);
+  box-shadow: 0px 0px 15px -5px rgb(0, 0, 0);
 }
 
 .aboutMeTitle {
@@ -166,6 +225,7 @@ h4 {
 }
 
 .solutions {
+  margin-bottom: 3vh;
   opacity: 0;
   animation: fadeInUp;
   animation-duration: 1400ms;
@@ -192,10 +252,10 @@ h4 {
   h3 {
     font-size: 12vw;
   }
+  h4 {
+    font-size: 10vw;
+  }
   h5 {
     font-size: 3vw;
   }
-}
-
-@media only screen and (max-width: 550px) {
 }

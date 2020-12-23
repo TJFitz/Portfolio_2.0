@@ -18,8 +18,8 @@ function App() {
           gyroControls: false,
           minHeight: 200.0,
           minWidth: 200.0,
-          scale: 1.0,
-          scaleMobile: 1.0,
+          scale: 2.0,
+          scaleMobile: 2.0,
           color: 0x5c5677,
           zoom: 1,
           shininess: 100.0,
@@ -52,17 +52,48 @@ function App() {
           </div>
         </div>
         <Footer></Footer>
-        <div className="">
+        <div className="col">
           <div className="row mainContent evenodd">
             <div className="aboutMeTitle col-xl-12">
               {" "}
               <h4 className="wow fadeInUp designs">Modern Designs</h4>{" "}
               <h4 className="wow fadeInUp solutions">Modern Solutions</h4>{" "}
             </div>
+
             <div className="row wow fadeInUp aboutMe">
-              <div className="col">
-                <div className="">content</div>
+              <div className="col-xl-12 center">
+                <div className="row">
+                  <div className="col-xl-2"></div>
+                  <div className="headshot col-xl-4">
+                    <img
+                      className="myface"
+                      src={process.env.PUBLIC_URL + "/Headshot.jpeg"}
+                    ></img>
+                  </div>
+                  <div className="col-xl-4 blurb">
+                    <div className="col test"> something witty</div>
+                    <div className="col aboutmetext">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Saepe tempore architecto veritatis quo ipsum numquam cum
+                      aut laudantium possimus expedita! Assumenda voluptate
+                      culpa consequatur veniam id cupiditate ducimus
+                      accusantium. Aut provident sed ipsam perferendis pariatur
+                      quisquam amet distinctio explicabo impedit, adipisci
+                      itaque ipsum quia. Tenetur ullam sunt cumque consectetur
+                      nisi cupiditate quos, similique nemo adipisci maxime
+                      quisquam aut, mollitia nostrum temporibus eveniet ea, eum
+                      labore perferendis laudantium minima vel commodi
+                      aspernatur quia fuga! Repellendus ea quas neque adipisci
+                      voluptate, reiciendis sunt. Non illum dignissimos ducimus
+                      exercitationem ullam sit? Sunt ipsam dignissimos ut
+                      repellendus quia cumque exercitationem iste recusandae
+                      dolorum autem.
+                    </div>
+                  </div>
+                  <div className="col-xl-2"></div>
+                </div>
               </div>
+              <div className="col quote">Find a cool nerdy quote dingus</div>
             </div>
           </div>{" "}
           <div className="row mainContent evenodd">

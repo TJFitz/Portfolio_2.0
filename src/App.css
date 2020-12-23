@@ -41,7 +41,7 @@ h3 {
   width: 100%;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.836);
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 0.15rem;
+  -webkit-text-stroke-width: 0.07rem;
   -webkit-text-stroke-color: rgb(0, 0, 0);
   background: linear-gradient(180deg, rgb(0, 255, 157) 0%, rgb(234, 0, 255));
   background-clip: text;
@@ -82,7 +82,7 @@ h4 {
   width: 100%;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.836);
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 0.15rem;
+  -webkit-text-stroke-width: 0.07rem;
   -webkit-text-stroke-color: rgb(0, 0, 0);
   background: linear-gradient(180deg, rgb(0, 255, 157) 0%, rgb(234, 0, 255));
   background-clip: text;

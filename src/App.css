@@ -75,6 +75,19 @@ h5 {
   margin-right: auto;
 }
 
+h4 {
+  font-size: 7vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.836);
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.15rem;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgb(0, 255, 157) 0%, rgb(234, 0, 255));
+  background-clip: text;
+}
+
 .no-gutters,
 .row {
   margin-right: 0;
@@ -127,7 +140,7 @@ h5 {
 .aboutMe {
   height: 70vh;
   width: 100%;
-  margin-bottom: auto;
+  margin-bottom: 5vh;
   background-color: rgba(194, 215, 247, 0.342);
   box-shadow: 0px 15px 50px -10px rgb(0, 0, 0),
     inset 0px 0px 150px -30px rgba(175, 224, 233, 0.521);
@@ -135,12 +148,30 @@ h5 {
   -webkit-backdrop-filter: blur(5.5px);
   animation: fadeInUp;
   animation-duration: 1200ms;
+  animation-delay: 1000ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .aboutMeTitle {
-  margin-top: 3vh;
+  height: fit-content;
+}
+
+.designs {
+  margin-top: 2vh;
+  opacity: 0;
   animation: fadeInUp;
   animation-duration: 1400ms;
+  animation-delay: 300ms;
+  animation-fill-mode: forwards;
+}
+
+.solutions {
+  opacity: 0;
+  animation: fadeInUp;
+  animation-duration: 1400ms;
+  animation-delay: 700ms;
+  animation-fill-mode: forwards;
 }
 
 @keyframes titleIntro {

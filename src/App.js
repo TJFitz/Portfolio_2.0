@@ -54,11 +54,12 @@ function App() {
         <Footer></Footer>
         <div className="">
           <div className="row mainContent evenodd">
-            <div className="wow fadeInUp aboutMeTitle col-xl-12">
+            <div className="aboutMeTitle col-xl-12">
               {" "}
-              <h3 className="">About Me</h3>{" "}
+              <h4 className="wow fadeInUp designs">Modern Designs</h4>{" "}
+              <h4 className="wow fadeInUp solutions">Modern Solutions</h4>{" "}
             </div>
-            <div className="row test wow fadeInUp aboutMe">
+            <div className="row wow fadeInUp aboutMe">
               <div className="col">
                 <div className="">content</div>
               </div>

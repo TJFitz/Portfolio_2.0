@@ -8,7 +8,7 @@ import "./style.css";
 export default function Footer() {
   return (
     <div className="bottombar">
-      <h4 className="icons">
+      <div className="icons">
         <a
           className=""
           href="https://www.linkedin.com/in/tj-fitzpatrick/"
@@ -28,13 +28,13 @@ export default function Footer() {
           <img src={github} alt="Github Icon"></img>
         </a>{" "}
         <a
-          href={process.env.PUBLIC_URL + "/Thomas_Fitzpatrick_Resume.pdf"}
+          href={process.env.PUBLIC_URL + "/Thomas Fitzpatrick Resume.pdf"}
           target="_blank"
           rel="noreferrer"
         >
           <img src={resume} alt="Resume Icon"></img>
         </a>
-      </h4>
+      </div>
       <div className="attributions">
         Icons made by{" "}
         <a

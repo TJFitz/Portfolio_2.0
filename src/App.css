@@ -173,6 +173,7 @@ h4 {
   font-size: 20px;
   text-shadow: 0px 3px 10px rgb(0, 0, 0);
   margin-left: auto;
+  margin-bottom: 5vh;
   margin-right: auto;
   max-width: 70vw;
 
@@ -220,7 +221,8 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5vh;
+  min-height: 5vh;
+  height: fit-content;
   text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.644);
   background-color: rgba(247, 247, 247, 0.562);
   box-shadow: 0px 0px 15px -5px rgb(0, 0, 0);
@@ -402,9 +404,9 @@ h4 {
 }
 
 h1 {
-  font-size: 22px;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  font-size: 18px;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 @keyframes titleIntro {

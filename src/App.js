@@ -122,7 +122,7 @@ function App() {
                 </div>
                 <div className="contact">
                   <h1>Cellphone: 770-608-2719 </h1>
-                  <h1>Email: tjfitzdev@gamil.com</h1>
+                  <h1>Email: tjfitzdev@gmail.com</h1>
                 </div>
               </div>{" "}
             </div>

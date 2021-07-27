@@ -1,1 +1,3 @@
-# Portfolio_2.0
+# Current devlopment portfolio
+
+Deployed: https://tjfitz.github.io/Portfolio_2.0/

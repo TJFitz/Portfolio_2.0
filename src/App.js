@@ -20,11 +20,11 @@ function App() {
           gyroControls: false,
           minHeight: 200.0,
           minWidth: 200.0,
-          scale: 2.0,
+          scale: 1.0,
           scaleMobile: 3.0,
-          color: 0x5c5677,
-          zoom: 1,
-          shininess: 100.0,
+          color: 0x0,
+          zoom: 1.25,
+          shininess: 25.0,
           waveHeight: 4.0,
           waveSpeed: 0.75,
         })
@@ -101,31 +101,29 @@ function App() {
             <Project project={project} index={index} />
           ))}
           <div className="row mainContent evenodd">
-            <div className="col center">
-              <div className="wow fadeInUp row goodbye">
-                <div className="col-xl-12 morelater">
-                  <h3>More in the works!</h3>{" "}
-                </div>
-                <div className="col-xl-12 goodbyetext">
-                  Check back later because there are always more projects being
-                  developed, in fact don't be surprised to find this site has
-                  changed the next time you visit since I am actively practicing
-                  more skills and adding new features.
-                  <br></br>
-                  <br></br>
-                  You can find links to my professional materials in the pink
-                  bar that's been following you around the site, but if you
-                  would like to contact me directly check out the information
-                  below. <br></br>
-                  <br></br>
-                  Thank you for taking the time to check out what I do!
-                </div>
-                <div className="contact">
-                  <h1>Cellphone: 770-608-2719 </h1>
-                  <h1>Email: tjfitzdev@gmail.com</h1>
-                </div>
-              </div>{" "}
-            </div>
+            <div className="wow fadeInUp row goodbye">
+              <div className="col-xl-12 morelater">
+                <h4>More in the works!</h4>{" "}
+              </div>
+              <div className="col-xl-12 goodbyetext">
+                Check back later because there are always more projects being
+                developed, in fact don't be surprised to find this site has
+                changed the next time you visit since I am actively practicing
+                more skills and adding new features.
+                <br></br>
+                <br></br>
+                You can find links to my professional materials in the pink bar
+                that's been following you around the site, but if you would like
+                to contact me directly check out the information below.{" "}
+                <br></br>
+                <br></br>
+                Thank you for taking the time to check out what I do!
+              </div>
+              <div className="contact">
+                <h1>Cellphone: 770-608-2719 </h1>
+                <h1>Email: tjfitzdev@gmail.com</h1>
+              </div>
+            </div>{" "}
           </div>
         </div>
       </div>

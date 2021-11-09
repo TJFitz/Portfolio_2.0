@@ -2,7 +2,7 @@ let projects = [
   {
     name: "DataNexus",
     description:
-      "DataNexus is a map making and data visualization tool created for non profits and local entities to better understand and work with applicable, correct information to help marginilizez groups in Georgia.",
+      "DataNexus is a map making and data visualization tool created for non profits and local entities to better understand and work with applicable, correct information to help marginilized groups in Georgia. Some of my work included implementing API error handling, localized storage through indexedDB, and aggregated server side data processing.",
     imageAlt: "DataNexus Interface",
     image: "/DataNexus.png",
     github: false,

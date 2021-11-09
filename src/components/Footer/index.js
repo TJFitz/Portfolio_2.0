@@ -19,7 +19,7 @@ export default function Footer() {
           <img src={linkedin} alt="LinkedIn Icon"></img>
         </a>{" "}
         <a
-          className=""
+          className="githubIcon"
           href="https://github.com/TJFitz"
           title="Freepik"
           target="_blank"
@@ -38,20 +38,20 @@ export default function Footer() {
       <div className="attributions">
         Icons made by{" "}
         <a
-          href="https://www.flaticon.com/authors/vitaly-gorbachev"
+          href="https://www.flaticon.com/authors/laisa-islam-ani"
           title="Freepik"
           target="_blank"
           rel="noreferrer"
         >
-          Vitaly Gorbachev,
+          Laisa Islam Ani,
         </a>{" "}
         <a
-          href="https://www.flaticon.com/authors/vitaly-gorbachev"
+          href="https://www.flaticon.com/authors/stockio"
           title="Freepik"
           target="_blank"
           rel="noreferrer"
         >
-          Google,
+          Stockio,
         </a>{" "}
         and
         <a

@@ -62,10 +62,9 @@ function App() {
             </div>
 
             <div className="row wow fadeInUp aboutMe">
-              <div className="col-xl-12 center">
-                <div className="row">
-                  <div className="col-xl-2"></div>
-                  <div className="headshot col-xl-4">
+              <div className="col-xl-12 d-flex justify-content-center">
+                <div className="row profileCentering">
+                  <div className="headshot col">
                     <img
                       className="myface"
                       alt="Developers face"
@@ -87,7 +86,6 @@ function App() {
                       perspective to the world of software development.
                     </div>
                   </div>
-                  <div className="col-xl-1"></div>
                 </div>
               </div>
               <div className="col quote">

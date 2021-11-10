@@ -8,6 +8,7 @@
   min-height: 85%;
   border: double 5px rgba(177, 141, 78, 0.281);
   width: 85%;
+  max-width: 1400px;
   background-color: rgb(14, 8, 2);
   margin-top: 5vh;
   margin-bottom: 5vh;

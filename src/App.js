@@ -96,7 +96,7 @@ function App() {
             <div className="row wow fadeInUp aboutMe">
               <div className="col-xl-12 d-flex justify-content-center">
                 <div className="row profileCentering">
-                  <div className="headshot col">
+                  <div className="headshot col-sm-12">
                     <img
                       className="myface"
                       alt="Developers face"

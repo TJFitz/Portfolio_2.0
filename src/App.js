@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { WOW } from "wowjs";
-import WAVES from "vanta/dist/vanta.waves.min";
+import FOG from "vanta/dist/vanta.fog.min";
 import Footer from "./components/Footer";
 import Project from "./components/Project";
 import projectConfig from "./assets/projects";
@@ -10,23 +10,55 @@ import "./App.css";
 function App() {
   const [vantaEffect, setVantaEffect] = useState(0);
   const myRef = useRef(null);
+  const secondRef = useRef(null);
+  const thirdRef = useRef(null);
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
-        WAVES({
+        FOG({
           el: myRef.current,
-          mouseControls: false,
-          touchControls: false,
+          mouseControls: true,
+          touchControls: true,
           gyroControls: false,
           minHeight: 200.0,
-          minWidth: 200.0,
-          scale: 1.0,
-          scaleMobile: 3.0,
-          color: 0x0,
-          zoom: 1.25,
-          shininess: 25.0,
-          waveHeight: 4.0,
-          waveSpeed: 0.75,
+          minWidth: 300.0,
+          highlightColor: 0x0,
+          midtoneColor: 0x705b1f,
+          lowlightColor: 0x897262,
+          baseColor: 0x20000,
+          blurFactor: 0.18,
+          speed: 0.3,
+          zoom: 1.8,
+        }),
+        FOG({
+          el: secondRef.current,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 300.0,
+          highlightColor: 0x0,
+          midtoneColor: 0x705b1f,
+          lowlightColor: 0x897262,
+          baseColor: 0x20000,
+          blurFactor: 0.18,
+          speed: 0.3,
+          zoom: 1.8,
+        }),
+        FOG({
+          el: thirdRef.current,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 300.0,
+          highlightColor: 0x0,
+          midtoneColor: 0x705b1f,
+          lowlightColor: 0x897262,
+          baseColor: 0x20000,
+          blurFactor: 0.18,
+          speed: 0.3,
+          zoom: 1.8,
         })
       );
     }
@@ -42,8 +74,8 @@ function App() {
 
   return (
     <>
-      <div ref={myRef} className="container-fluid no-gutters">
-        <div className=" row title ">
+      <div className="container-fluid no-gutters">
+        <div ref={myRef} className=" row title ">
           <div className="topbar"></div>
           <div className=" titleName col">
             <div className="nametitle animate__fadeInUp vertical">
@@ -54,7 +86,7 @@ function App() {
         </div>
         <Footer></Footer>
         <div className="col">
-          <div className="row mainContent evenodd">
+          <div ref={secondRef} className="row mainContent evenodd">
             <div className="aboutMeTitle col-xl-12">
               {" "}
               <h4 className="wow fadeInUp designs">Modern Designs</h4>{" "}
@@ -96,9 +128,9 @@ function App() {
             </div>
           </div>{" "}
           {projectConfig.map((project, index) => (
-            <Project project={project} index={index} />
+            <Project project={project} index={index} ref={myRef} />
           ))}
-          <div className="row mainContent evenodd">
+          <div ref={thirdRef} className="row mainContent evenodd">
             <div className="wow fadeInUp row goodbye">
               <div className="col-xl-12 morelater">
                 <h4>More in the works!</h4>{" "}

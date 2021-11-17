@@ -18,29 +18,30 @@
   border-right: none;
   border-top: none;
   background-color: rgba(245, 229, 199, 0.575);
+  box-shadow: 0px 15px 50px -10px rgb(0, 0, 0),
+    inset 0px 0px 150px -25px rgba(226, 207, 143, 0.404);
   height: fit-content;
   width: fit-content;
   max-width: 1200px;
   padding-left: 7vw;
   padding-right: 7vw;
-  box-shadow: 0px 10px 100px -10px rgb(26, 26, 26);
   text-align: center;
   justify-content: center;
   border-radius: 3px;
 }
 
 h3 {
-  font-size: 9rem;
+  font-size: 7rem;
   margin-top: 2vh;
   margin-bottom: auto;
   width: 100%;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.836);
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(133, 105, 13, 0.774);
   -webkit-text-stroke-width: 0.07rem;
   -webkit-text-stroke-color: rgb(0, 0, 0);
   background: linear-gradient(
     145deg,
-    rgba(102, 58, 14, 0.685) 20%,
+    rgba(214, 159, 9, 0.685) 70%,
     rgba(248, 206, 18, 0.616)
   );
   background-clip: text;
@@ -51,7 +52,7 @@ h3 {
   position: absolute;
   height: 7vh;
   width: 100%;
-  background-color: rgba(19, 15, 3, 0.863);
+  background-color: rgba(5, 4, 0, 0.863);
   box-shadow: 0px 15px 50px -10px rgb(0, 0, 0);
 }
 
@@ -118,8 +119,8 @@ h4 {
   padding-top: 12vh;
   padding-bottom: 12vh;
   background-color: rgba(215, 226, 235, 0.11);
-  box-shadow: 0px 25px 100px -10px rgb(26, 26, 26),
-    inset 0px 0px 75px -20px rgba(177, 141, 78, 0.123);
+  box-shadow: 0px 25px 100px -10px rgba(26, 26, 26, 0.479),
+    inset 0px 0px 75px -20px rgba(177, 141, 78, 0.075);
   animation-name: titleIntro, fadeIn;
   animation-duration: 1500ms;
   animation-timing-function: linear;
@@ -149,7 +150,7 @@ h4 {
 }
 
 .evenodd:nth-child(odd) {
-  background-color: rgba(49, 21, 5, 0.267);
+  background-color: rgb(49, 21, 5);
 }
 
 .aboutMe {
@@ -160,9 +161,7 @@ h4 {
   padding-bottom: 10vh;
   background-color: rgba(245, 229, 199, 0.575);
   box-shadow: 0px 15px 50px -10px rgb(0, 0, 0),
-    inset 0px 0px 150px -30px rgba(175, 224, 233, 0.521);
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
+    inset 0px 0px 150px -25px rgba(226, 207, 143, 0.404);
   animation: fadeInUp;
   animation-duration: 1200ms;
   animation-delay: 1000ms;
@@ -180,7 +179,8 @@ h4 {
   border-radius: 3px;
   margin-bottom: 1vh;
   background-color: rgba(22, 9, 1, 0.836);
-  box-shadow: 0px 0px 15px -5px rgb(0, 0, 0);
+  box-shadow: 0px 0px 15px -5px rgb(0, 0, 0),
+    inset 0px 0px 35px -15px rgb(0, 0, 0);
 }
 
 .aboutmetext {
@@ -192,7 +192,8 @@ h4 {
   max-width: 600px;
   border-radius: 3px;
   background-color: rgba(22, 9, 1, 0.836);
-  box-shadow: 0px 0px 15px -5px rgb(0, 0, 0);
+  box-shadow: 0px 0px 15px -5px rgb(0, 0, 0),
+    inset 0px 0px 35px -10px rgb(0, 0, 0);
 }
 
 .blurb {
@@ -200,12 +201,12 @@ h4 {
   margin-bottom: auto;
   height: fit-content;
   padding-top: 7vh;
-  min-width: 500px;
+  min-width: 300px;
 }
 
 .headshot {
   display: flex;
-  height: 50vh;
+  /* height: 50vh; */
   width: 100%;
   margin-top: auto;
   margin-bottom: auto;
@@ -216,12 +217,14 @@ h4 {
   margin-right: auto;
   border-radius: 3px;
   height: 45vh;
+  min-height: 300px;
   margin-top: 5vh;
   box-shadow: 0px 0px 15px -5px rgb(0, 0, 0);
 }
 
 .quote {
-  font-size: 20px;
+  font-size: 16px;
+  margin-top: 5vh;
   position: absolute;
   bottom: 0;
   display: flex;
@@ -259,12 +262,13 @@ h4 {
 }
 
 .goodbye {
+  align-self: center;
+  justify-self: center;
   opacity: 0;
   border: inset 10px rgba(0, 0, 0, 0.616);
-  margin: auto;
+  margin: 10px 10px 10px 10px;
   border-radius: 3px;
   min-height: 50vh;
-  height: fit-content;
   width: 85%;
   max-width: 1400px;
   background-color: rgba(24, 24, 24, 0.724);

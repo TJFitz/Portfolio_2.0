@@ -1,5 +1,6 @@
 .projectWrapper {
-  box-shadow: 0px 0px 15px -2px rgb(0, 0, 0);
+  box-shadow: 0px 0px 35px 15px rgb(0, 0, 0),
+    inset 0px 0px 55px 15px rgba(29, 18, 4, 0.425);
   border-radius: 3px;
   display: flex;
   justify-content: center;
@@ -15,6 +16,10 @@
   animation-name: fadeInUp;
   animation-duration: 1000ms;
   overflow: hidden;
+}
+
+.projectWrapper h4 {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.596);
 }
 
 .links {

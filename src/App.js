@@ -77,7 +77,7 @@ function App() {
       <div className="container-fluid no-gutters">
         <div ref={myRef} className=" row title ">
           <div className="topbar"></div>
-          <div className=" titleName col">
+          <div className="col-xl-12 blurDrop">
             <div className="nametitle animate__fadeInUp vertical">
               <h3 className="">TJ Fitzpatrick</h3>
               <h5>Full Stack Web Developer</h5>

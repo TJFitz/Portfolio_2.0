@@ -23,7 +23,7 @@
 }
 
 .bottombar a img:hover {
-  box-shadow: 0px 0px 20px -5px rgb(255, 242, 185);
+  box-shadow: 0px 0px 20px -5px rgb(255, 242, 184);
   height: 100px;
   transition: all ease-in-out 400ms;
 }
